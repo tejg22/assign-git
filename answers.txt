@@ -1,5 +1,6 @@
 1) What is a gitignore file and what should it include for a Java project?
-In a project at times binary temporary and intermediate files are generated. Git ignore helps us to not track these binary intermediate and temporary files. gitignore informs GIT on what files can be ignored when commiting your changes to the GITHUB Repository.
+
+  In a project at times binary temporary and intermediate files are generated. Git ignore helps us to not track these binary intermediate and temporary files. gitignore informs GIT on what files can be ignored when commiting your changes to the GITHUB Repository.
    gitignore file contents for JAVA project:
    ->.jar,.war,.class
    -> .build generated files
@@ -24,6 +25,7 @@ In a project at times binary temporary and intermediate files are generated. Git
     *.nar
 
 2) What does fast-forward in Git mean?
+
 Fast forwarding in GIT helps move to the target branch pointer, from the source branch pointer without having the need for an extra merge commit.In Git, Fast Forwarding happens when git detects that the commit in local branch can be safely merged into the project's main branch without altering the main branch. In a Fast-forward merge, the tip of the main-project branch is kept parallel to the local branch's tip.Making sure that no new changes are made in the main project branch after the local branch is created. 
 Git Fast forwqarding example:
 Consider we have two branches master and subfeature. Master has two commits "Apple", "Banana". Then we create a new subfeature branch from master.
@@ -42,9 +44,13 @@ Now we make a new commit cherry to the branch subfeature.Here we already have co
 Now we switch to Master, changing the pointer from Subfeature to master. Now we run Git merge subfeature. This will copy the commits from subfeature into our Master branch.
 
 3) Why should you have different branches?
+
 Creating multiple Branches helps in isolating the work between various team members working on various functionalities by branching out from original code-base. It also helps to manage the verisons and releases in a repository.Having different branches makes it easy to maintain, create and delete branches at given point. Having dif⁭ferent branches
 Given below are few real time advantages:
-Consider we are working on a project for a client so we create a new branch to our main branch naming ABC and we start working on this. Simoltaneously we start working on a new branch DEF for few new features. Suddenly client is not happy with the changes on ABC and wants to delete this feature. Since we are following a branching stategy, you can delete the branch not required and this does not cause any change on the remaing code.Hence making it easy to modify and delete.
+Consider we are working on a project for a client so we create a new branch to our main branch naming ABC and we start working on this. Simultaneously we start working on a new branch DEF for few new features. Suddenly client is not happy with the changes on ABC and wants to delete this feature. Since we are following a branching stategy, you can delete the branch not required and this does not cause any change on the remaing code.Hence making it easy to modify and delete.
+
 
 4) In a project how many remote Git repositories do you usually have?
+
 In a project we have one remote Git repository in general. But we can also create multiple repositories.
+

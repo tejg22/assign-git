@@ -44,6 +44,7 @@ Now we switch to Master, changing the pointer from Subfeature to master. Now we 
 3) Why should you have different branches?
 Creating multiple Branches helps in isolating the work between various team members working on various functionalities by branching out from original code-base. It also helps to manage the verisons and releases in a repository.Having different branches makes it easy to maintain, create and delete branches at given point. Having dif⁭ferent branches
 Given below are few real time advantages:
-Consider we are working on a project for a client so we create a new branch to our main branch naming ABC and we start working on this. Simoltaneously we start working on a new branch DEF for few new features. Suddenly client is not happy with the changes on ABC and wants to delete this feature. Since we are following a branching stategy, you can delete the branch not required and this does not cause any change on the remaing code. Hence making it easy to modify and delete.
+Consider we are working on a project for a client so we create a new branch to our main branch naming ABC and we start working on this. Simoltaneously we start working on a new branch DEF for few new features. Suddenly client is not happy with the changes on ABC and wants to delete this feature. Since we are following a branching stategy, you can delete the branch not required and this does not cause any change on the remaing code.Hence making it easy to modify and delete.
+
 4) In a project how many remote Git repositories do you usually have?
 In a project we have one remote Git repository in general. But we can also create multiple repositories.
